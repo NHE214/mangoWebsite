@@ -8,12 +8,12 @@ export default {
     extend: {
       colors: {
         color: {
-          1: "#AC6AFF",
-          2: "#FFC876",
-          3: "#FF776F",
-          4: "#7ADB78",
-          5: "#858DFF",
-          6: "#FF98E2",
+          1: "#f2af4c",
+          2: "#9ea948",
+          3: "#55985f",
+          4: "#158071",
+          5: "#14646f",
+          6: "#2f4858",
         },
         stroke: {
           1: "#26242C",
@@ -69,7 +69,7 @@ export default {
       backgroundImage: {
         "radial-gradient": "radial-gradient(var(--tw-gradient-stops))",
         "conic-gradient":
-          "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
+          "conic-gradient(from 225deg, #f2af4c, #9ea948, #55985f, #158071, #14646f, #2f4858)",
       },
     },
   },

@@ -35,6 +35,7 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+import notification from "../components/Notification.jsx";
 
 export const navigation = [
   {
@@ -44,8 +45,8 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "Pricing",
-    url: "#pricing",
+    title: "About us",
+    url: "#about-us"
   },
   {
     id: "2",
@@ -59,12 +60,6 @@ export const navigation = [
   },
   {
     id: "4",
-    title: "New account",
-    url: "#signup",
-    onlyMobile: true,
-  },
-  {
-    id: "5",
     title: "Sign in",
     url: "#login",
     onlyMobile: true,
@@ -252,8 +247,8 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Generate Events",
+    text: "The system uses event generation algorithms to create customized and relevant events based on user preferences and requirements.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,8 +256,8 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Improve your Experience",
+    text: "Ask the AI Assistant for help and get Information on your systems shortcomings",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
@@ -270,7 +265,7 @@ export const benefits = [
   {
     id: "3",
     title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    text: "Ensures a quick and efficient workflow in an Event Storming scenario.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +273,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Create Features from scratch",
+    text: "Lets inexperienced users generate test features from a simple idea.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Find the next step",
+    text: "Use the AI companion to guide you through the Event Storming process.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
