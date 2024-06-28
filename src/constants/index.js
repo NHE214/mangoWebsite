@@ -3,6 +3,8 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   chromecast,
   disc02,
@@ -11,17 +13,12 @@ import {
   facebook,
   figma,
   file02,
-  framer,
   homeSmile,
   instagram,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -29,13 +26,23 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
   yourlogo,
+  noah,
+  david,
+  lina,
+  konrad,
+  chris,
+  nils,
+  react,
+  drive,
+  illustrator,
+  whatapp,
+  git,
+  ckockify
 } from "../assets";
-import notification from "../components/Notification.jsx";
 
 export const navigation = [
   {
@@ -68,7 +75,7 @@ export const navigation = [
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-export const notificationImages = [notification4, notification3, notification2];
+export const notificationImages = [chris, david, noah, lina, nils, konrad];
 
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
@@ -123,21 +130,20 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "The tools we use ensure a smooth workflow and seamless teamwork. They enable effective communication, efficient task management, and automated processes, keeping us aligned and productive.";
 
 export const collabContent = [
   {
     id: "0",
     title: "Seamless Integration",
-    text: collabText,
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Effective Collaboration",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Agile Methodologies",
   },
 ];
 
@@ -151,8 +157,8 @@ export const collabApps = [
   },
   {
     id: "1",
-    title: "Notion",
-    icon: notion,
+    title: "Clockify",
+    icon: ckockify,
     width: 34,
     height: 36,
   },
@@ -165,36 +171,36 @@ export const collabApps = [
   },
   {
     id: "3",
-    title: "Slack",
-    icon: slack,
+    title: "WhatsApp",
+    icon: whatapp,
     width: 34,
     height: 35,
   },
   {
     id: "4",
-    title: "Photoshop",
-    icon: photoshop,
+    title: "Illustrator",
+    icon: illustrator,
     width: 34,
     height: 34,
   },
   {
     id: "5",
-    title: "Protopie",
-    icon: protopie,
+    title: "Git",
+    icon: git,
     width: 34,
     height: 34,
   },
   {
     id: "6",
-    title: "Framer",
-    icon: framer,
+    title: "React",
+    icon: react,
     width: 26,
     height: 34,
   },
   {
     id: "7",
-    title: "Raindrop",
-    icon: raindrop,
+    title: "Drive",
+    icon: drive,
     width: 38,
     height: 32,
   },
@@ -203,37 +209,70 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "Angelina Eder",
+    description: "",
+    price: lina,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Team Leader",
+      "Documentation",
+      "Head of Sprint Planning"
     ],
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Nils Heck",
+    description: "",
+    price: nils,
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Co Leader",
+      "Development",
+      "Quality Assurance",
     ],
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Noah Richardt",
+    description: "",
+    price: noah,
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Head of Development",
+      "Head of Code Documentation",
+      "Quality Assurance",
     ],
   },
+  {
+    id: "3",
+    title: "David Werner",
+    description: "",
+    price: david,
+    features: [
+        "Client Interaction",
+        "Software Engineer",
+        "Development",
+    ]
+  },
+  {
+    id: "4",
+    title: "Christoph Stickl",
+    description: "",
+    price: chris,
+    features: [
+        "Head of Client Interaction",
+        "Development",
+        "Quality Assurance",
+    ]
+  },
+  {
+    id: "5",
+    title: "Konrad Krauth",
+    description: "",
+    price: konrad,
+    features: [
+        "Head of Quality Assurance",
+        "Development",
+        "Documentation"
+    ]
+  }
 ];
 
 export const benefits = [
@@ -276,7 +315,7 @@ export const benefits = [
     title: "Create Features from scratch",
     text: "Lets inexperienced users generate test features from a simple idea.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: benefitIcon5,
     imageUrl: benefitImage2,
   },
   {
@@ -284,7 +323,7 @@ export const benefits = [
     title: "Find the next step",
     text: "Use the AI companion to guide you through the Event Storming process.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: benefitIcon6,
     imageUrl: benefitImage2,
   },
 ];
@@ -294,30 +333,6 @@ export const socials = [
     id: "0",
     title: "Discord",
     iconUrl: discordBlack,
-    url: "#",
-  },
-  {
-    id: "1",
-    title: "Twitter",
-    iconUrl: twitter,
-    url: "#",
-  },
-  {
-    id: "2",
-    title: "Instagram",
-    iconUrl: instagram,
-    url: "#",
-  },
-  {
-    id: "3",
-    title: "Telegram",
-    iconUrl: telegram,
-    url: "#",
-  },
-  {
-    id: "4",
-    title: "Facebook",
-    iconUrl: facebook,
-    url: "#",
+    url: "https://discord.gg/gr98WTHeqU",
   },
 ];

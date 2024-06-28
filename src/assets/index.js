@@ -22,7 +22,7 @@ import loading from "./loading.png";
 import background from "./background.jpg";
 
 import curve from "./hero/curve.png";
-import robot from "./hero/robot.jpg";
+import robot from "./hero/group-picture-vertical.jpg";
 import heroBackground from "./hero/hero-background.jpg";
 
 import curve1 from "./collaboration/curve-1.svg";
@@ -35,6 +35,12 @@ import photoshop from "./collaboration/photoshop.png";
 import protopie from "./collaboration/protopie.png";
 import raindrop from "./collaboration/raindrop.png";
 import slack from "./collaboration/slack.png";
+import git from "./collaboration/github.webp";
+import react from "./collaboration/react.png";
+import illustrator from "./collaboration/illustrator.png";
+import whatapp from "./collaboration/whatsapp.png";
+import drive from "./collaboration/google-drive.png";
+import ckockify from "./collaboration/clockify.png";
 
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
@@ -67,6 +73,8 @@ import benefitIcon1 from "./benefits/icon-1.svg";
 import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
+import benefitIcon5 from "./benefits/new-features.svg"
+import benefitIcon6 from "./benefits/guidance.svg"
 import benefitImage2 from "./benefits/image-2.png";
 
 import discordBlack from "./socials/discord.svg";
@@ -74,6 +82,13 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+
+import noah from "./headshots/noah-richardt.jpg";
+import david from "./headshots/david-wernder.jpg";
+import lina from "./headshots/lina-eder.jpg";
+import chris from "./headshots/chris-stickl.jpg";
+import konrad from "./headshots/konrad-krauth.jpg";
+import nils from "./headshots/nils-heck.jpg";
 
 export {
   brainwave,
@@ -138,10 +153,24 @@ export {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
+  benefitIcon5,
+  benefitIcon6,
   benefitImage2,
   discordBlack,
   facebook,
   instagram,
   telegram,
   twitter,
+  noah,
+  david,
+  lina,
+  chris,
+  konrad,
+  nils,
+  react,
+  drive,
+  illustrator,
+  whatapp,
+  git,
+  ckockify
 };
