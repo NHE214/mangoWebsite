@@ -39,7 +39,7 @@ const Hero = () => {
             Unleash the power of AI within Cody+. Upgrade your productivity
             with Cody+, the open AI support companion.
           </p>
-          <Button href="#how-to-use">
+          <Button href="./assets/socials/SEP24-main.zip" download="SEP24-main.zip">
             Get started
           </Button>
         </div>

@@ -45,6 +45,9 @@ import ckockify from "./collaboration/clockify.png";
 import service1 from "./services/service-1.png";
 import service2 from "./services/service-2.png";
 import service3 from "./services/service-3.png";
+import events from "./services/codyPlus_events.png";
+import hotSpots from "./services/codyPlus_hotSpots.png";
+import create from "./services/codyPlus_create.png";
 
 import lines from "./pricing/lines.svg";
 import stars from "./pricing/stars.svg";
@@ -89,6 +92,7 @@ import lina from "./headshots/lina-eder.jpg";
 import chris from "./headshots/chris-stickl.jpg";
 import konrad from "./headshots/konrad-krauth.jpg";
 import nils from "./headshots/nils-heck.jpg";
+import group from "./headshots/gruppenfoto.jpg";
 
 export {
   brainwave,
@@ -172,5 +176,9 @@ export {
   illustrator,
   whatapp,
   git,
-  ckockify
+  ckockify,
+  events,
+  hotSpots,
+  create,
+  group
 };

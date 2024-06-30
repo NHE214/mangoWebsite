@@ -52,24 +52,18 @@ export const navigation = [
   },
   {
     id: "1",
-    title: "About us",
-    url: "#about-us"
+    title: "Possibilities",
+    url: "#possibilities"
   },
   {
     id: "2",
-    title: "How to use",
-    url: "#how-to-use",
+    title: "About us",
+    url: "#about-us",
   },
   {
     id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
-  {
-    id: "4",
-    title: "Sign in",
-    url: "#login",
-    onlyMobile: true,
+    title: "Our Tools",
+    url: "#our-tools",
   },
 ];
 
@@ -80,9 +74,9 @@ export const notificationImages = [chris, david, noah, lina, nils, konrad];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Reliable Events",
+  "Any Topic",
+  "Fast Generation",
 ];
 
 export const brainwaveServicesIcons = [
@@ -211,7 +205,7 @@ export const pricing = [
     id: "0",
     title: "Angelina Eder",
     description: "",
-    price: lina,
+    image: lina,
     features: [
       "Team Leader",
       "Documentation",
@@ -222,7 +216,7 @@ export const pricing = [
     id: "1",
     title: "Nils Heck",
     description: "",
-    price: nils,
+    image: nils,
     features: [
       "Co Leader",
       "Development",
@@ -233,7 +227,7 @@ export const pricing = [
     id: "2",
     title: "Noah Richardt",
     description: "",
-    price: noah,
+    image: noah,
     features: [
       "Head of Development",
       "Head of Code Documentation",
@@ -244,7 +238,7 @@ export const pricing = [
     id: "3",
     title: "David Werner",
     description: "",
-    price: david,
+    image: david,
     features: [
         "Client Interaction",
         "Software Engineer",
@@ -255,7 +249,7 @@ export const pricing = [
     id: "4",
     title: "Christoph Stickl",
     description: "",
-    price: chris,
+    image: chris,
     features: [
         "Head of Client Interaction",
         "Development",
@@ -266,7 +260,7 @@ export const pricing = [
     id: "5",
     title: "Konrad Krauth",
     description: "",
-    price: konrad,
+    image: konrad,
     features: [
         "Head of Quality Assurance",
         "Development",
